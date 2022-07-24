@@ -1,0 +1,14 @@
+/* Include.gradle configuration: http://docs.nativescript.org/plugins/plugins#includegradle-specification */
+
+android {
+}
+
+repositories {
+    google()
+    jcenter()
+}
+
+dependencies {
+    // https://mvnrepository.com/artifact/com.github.barteksc/android-pdf-viewer
+    implementation 'com.github.barteksc:android-pdf-viewer:3.2.0-beta.1'
+}
