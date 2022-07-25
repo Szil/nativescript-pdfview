@@ -1,6 +1,6 @@
 {
   "name": "@nativescript/pdf-view",
-  "version": "1.0.1",
+  "version": "1.0.0",
   "description": "Add a plugin description",
   "main": "index",
   "typings": "index.d.ts",
@@ -41,5 +41,9 @@
   "license": "Apache-2.0",
   "homepage": "https://github.com/Szil/nativescript-pdfview",
   "readmeFilename": "README.md",
-  "bootstrapper": "@nativescript/plugin-seed"
+  "bootstrapper": "@nativescript/plugin-seed",
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://nexus2.molaris.hu/repository/molaris-npm-private/"
+  }
 }
